@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Crystal Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <br>
+    <div class="jumbotron text-center">
+      <h1>Crystal Collector</h1>
+    </div>
+
+    <div class="instructions">
+      <br>
+      <h3>Instructions:</h3>
+      <ol>
+        <li>You will be given a random "Number to Guess" at the start of each game.</li>
+        <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to the
+          "Total
+          Score".</li>
+        <li>You win the game by matching the "Total Score" to the "Number to Guess", and you lose the game if the
+          "Total Score" goes above the "Number to Guess"</li>
+        <li>The value of each crystal is hidden from you until you click on it</li>
+        <li>Each time a new game starts, the value of each of the crystals will change.</li>
+        <br>
+      </ol>
+    </div>
+
+
+
+    <input class="button" id="button-1" type="image" src="/assets/images/crystal-1.jpeg">
+    <input class="button" id="button-2" type="image" src="/assets/images/crystal-2.jpeg">
+    <input class="button" id="button-3" type="image" src="/assets/images/crystal-3.jpg">
+    <input class="button" id="button-4" type="image" src="/assets/images/crystal-4.jpg">
+
+    <div class="info">
+      <br>
+      <h2>Number to Guess: <span id="target-number"></span></h2>
+      <h2>Total Score: <span id="total-score"></span></h2>
+      <h2>Wins: <span id="wins"></span></h2>
+      <h2>Losses: <span id="losses"></span></h2>
+      <br>
+    </div>
+
+
+
+
+
+
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
